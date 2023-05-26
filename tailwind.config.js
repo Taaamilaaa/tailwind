@@ -38,6 +38,14 @@ module.exports = {
       "effervescent-blue": "#042b59",
       "deep-sky-blue": "#0d6efd",
       "black-lacquer": "#3e3e3e",
+      "cerebral-grey":"#cccccc",
+      "baby-talk-grey": "#bababa",
+      "black-out": "#222222",
+      "super-silver": "#eeeeee",
+      "christmas-silver": "#e2e0e0",
+      "million-grey": "#999999",
+      "island-green": "#2ca85f",
+      "squant": "#666666"
      
     },
     container: {},
