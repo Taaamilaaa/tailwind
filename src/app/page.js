@@ -212,114 +212,148 @@ export default function Home() {
           ></img>
         </div>
       </div>
+
+
       {/* POPUP */}
 
       <div className="opacity-100 mt-0 leading-6 font-light text-[14px] text-black-lacquer" >
-        <div className="shadow-[0_3px_5px_2px_rgba(0,0,0,0.3)_inset_0_1px_0_0_rgba(255,255,255,0.65)] overflow-auto bg-white w-[350px] mx-auto my-0 relative rounded-[6px] table py-[15px] before:content-[''] before:table before:overflow-hidden before:invisible before:text-0 before:leading-[0] before:w-0 before:h-0">
+        <div className="
+        
+        shadow-[0_3px_5px_2px_rgba(0,0,0,0.3)]
+        // shadow-[inset_0px_1px_0px_0px_rgba(255,255,255,0.65)]
+         overflow-auto bg-white w-[350px] mx-auto my-0 relative rounded-[6px] table py-[15px] 
+        before:content-[''] before:table before:overflow-hidden before:invisible before:text-0 before:leading-[0] before:w-0 before:h-0">
           <div className="absolute top-[10px] right=[10px] z-[9999] w-[17px] cursor-pointer" onclick="closeModal();"></div>
-          <div className="clear-both w-full before:content-['.'] before:block before:overflow-hidden before:invisible before:text-[0px] before:leading-[0px] before:w-[0px] before:h-[0px] after:content-['.'] after:block after:overflow-hidden after:invisible after:text-[0px] after:leading-[0px] after:w-o after:h-0">
+          <div className="clear-both w-full 
+          before:content-['.'] before:block before:overflow-hidden before:invisible before:text-[0px] before:leading-[0px] before:w-[0px] before:h-[0px] 
+          after:content-['.'] after:block after:overflow-hidden after:invisible after:text-[0px] after:leading-[0px] after:w-o after:h-0">
             <img className="h-[38px] w-[38px] block mt-[15px] mb-[0px] mx-auto"
               src="/image/standard_favicon.png"
               alt="Standard favicon"
             ></img>
           </div>
 
-          <div className="mt-[15px] mb-0 px-[30px]">
-            <h4 className="">The Podcast Fellowship</h4>
+          <div className="mt-[15px] mb-0 px-[30px] break-words clear-both w-full 
+          before:content-['.'] before:block before:overflow-hidden before:invisible before:text-[0px] before:leading-[0px] before:w-0 before:h-0 before:break-words 
+          after:clear-both after:content-['.'] after:block after:overflow-hidden after:invisible after:text-[0px] after:leading-[0px] after:w-0 after:h-0 after:break-words">
+            <h4 className="text-[16px] font-semibold text-center outline-0 my-[10px] leading-[1.1] text-[inherit]">The Podcast Fellowship</h4>
           </div>
 
-          <div className="">
-            <p className="">
+          <div className="mt-[15px] px-[30px] mb-0 break-words clear-both w-full 
+          before:content-['.'] before:block before:overflow-hidden before:invisible before:text-[0px] before:leading-[0px] before:w-0 before:h-0 before:break-words 
+          after:content-['.'] after:block after:overflow-hidden after:invisible after:text-[0px] after:leading-[0px] after:w-0 after:h-0 after:clear-both after:font-light after:text-black-lacquer">
+            <p className="text-[14px] text-center leading-[1.5rem] font-light text-black-lacquer mb-[10px] mt-0 mx-0 break-words">
               Your donation fuels the success of our rapidly-growing, flexible,
               innovative educational model!
             </p>
           </div>
 
-          <div className="" id="step1" 
+          <div className="p-[15px] leading-[1.5rem] font-light text-[14px] text-black-lacquer" id="step1" 
           // style=""
           >
-            <div className="">
-              <h5 className="">Choose your Amount</h5>
-              <ul className="">
-                <fieldset>
-                  <li className="">
+            <div className="clear-both w-full px-[15px] leading-[1.5rem] font-light text-[14px] text-black-lacquer 
+            before:content-['.'] before:block before:overflow-hidden before:invisible before:text-[0px] before:leading-[0px] before:w-0 before:h-0 before:font-light before:text-black-lacquer
+            after:clear-both after:content-['.'] after:block after:overflow-hidden after:invisible after:text-[0px] after:leading-[0px] after:w-0 after:h-0 after:font-light after:text-black-lacquer">
+              <h5 className="text-[18px] font-normal text-center outline-0 my-[10px] leading-[1.1] text-[inherit]">Choose your Amount</h5>
+              <ul className="ml-0 mt-0 mb-[10px] pl-0 leading-[1.5rem] font-light text-[14px] text-black-lacquer">
+                <fieldset className="p-0 m-0 border-0 min-w-0 leading-[1.5rem] font-light text-[14px] text-black-lacquer">
+                  <li className="w-[21.67%] m-[1%] inline-block align-top list-none">
                     <input
                       type="radio"
                       name="amount"
                       id="amount_36"
                       value="36"
                       checked="checked"
+                      className="opacity-0 w-0 h-0 hidden text-[17px] font-medium leading-[1em] px-[0.75em] py-0 m-0 border-0 rounded-[2px]"
                     />
-                    <label for="amount_36" className="">
-                      <div className="">$36</div>
+                    <label for="amount_36" 
+                    className="text-[13px] leading-[20px] font-medium float-none my-[0.5em] mx-0 cursor-pointer relative w-auto bg-cerebral-grey border-[1px] border-solid border-baby-talk-grey py-[10px] px-0 block text-black-out text-center h-auto left-[0px] rounded-[3px] max-w-full">
+                      <div className="text-[13px] leading-[20px] font-medium cursor-pointer text-black-out text-center">$36</div>
                     </label>{" "}
                   </li>
-                  <li className="">
+                  <li className="w-[21.67%] m-[1%] inline-block align-top list-none">
                     <input
                       type="radio"
                       name="amount"
                       id="amount_72"
                       value="72"
+                      className="opacity-0 w-0 h-0 hidden text-[17px] font-medium leading-[1em] px-[0.75em] py-0 m-0 border-0 rounded-[2px]"
                     />
-                    <label for="amount_72">
-                      <div className="">$72</div>
+                    <label for="amount_72"
+                    className="text-[13px] leading-[20px] font-medium float-none my-[0.5em] mx-0 cursor-pointer relative w-auto bg-super-silver border-[1px] border-solid border-christmas-silver py-[10px] px-0 block text-super-silver text-center h-auto left-[0px] rounded-[3px] max-w-full">
+                      <div className="text-[13px] leading-[20px] font-medium cursor-pointer text-black-out text-center">$72</div>
                     </label>{" "}
                   </li>
-                  <li className="">
+                  <li className="w-[21.67%] m-[1%] inline-block align-top list-none">
                     <input
                       type="radio"
                       name="amount"
                       id="amount_100"
                       value="100"
+                      className="opacity-0 w-0 h-0 hidden text-[17px] font-medium leading-[1em] px-[0.75em] py-0 m-0 border-0 rounded-[2px]"
                     />
-                    <label for="amount_100">
-                      <div className="">$100</div>
+                    <label for="amount_100"
+                     className="text-[13px] leading-[20px] font-medium float-none my-[0.5em] mx-0 cursor-pointer relative w-auto bg-super-silver border-[1px] border-solid border-christmas-silver py-[10px] px-0 block text-super-silver text-center h-auto left-[0px] rounded-[3px] max-w-full">
+                      <div className="text-[13px] leading-[20px] font-medium cursor-pointer text-black-out text-center">$100</div>
                     </label>{" "}
                   </li>
-                  <li className="" id="other-label">
+                  <li className="w-[21.67%] m-[1%] inline-block align-top list-none" id="other-label">
                     <input
                       type="radio"
                       name="amount"
                       id="amount_other"
                       value="other"
+                      className="opacity-0 w-0 h-0 hidden text-[17px] font-medium leading-[1em] px-[0.75em] py-0 m-0 border-0 rounded-[2px]"
                     />
-                    <label for="amount_other">
-                      <div className="">Other</div>
+                    <label for="amount_other"
+                     className="text-[13px] leading-[20px] font-medium float-none my-[0.5em] mx-0 cursor-pointer relative w-auto bg-super-silver border-[1px] border-solid border-christmas-silver py-[10px] px-0 block text-super-silver text-center h-auto left-[0px] rounded-[3px] max-w-full">
+                      <div className="text-[13px] leading-[20px] font-medium cursor-pointer text-black-out text-center">Other</div>
                     </label>{" "}
                   </li>
                 </fieldset>
               </ul>
-              <div className=""
+              <div className="hidden pt-[8px] mt-[8px] relative leading-[1.5rem] font-light text-[14px] text-black-lacquer "
               //  style="display: none;"
                >
-                <span className="">$</span>
-                <span id="other-amount-input"></span>
+                <span className="inline-block text-[16px] w-[15px] leading-[1.5rem] font-light text-[14px] text-black-lacquer">$</span>
+                <span id="other-amount-input"
+                className="w-[calc(100% - 22px)] inline-block mb-[15px] leading-[1.5rem] font-light text-[14px] text-black-lacquer"
+                ></span>
               </div>
             </div>
 
-            <div className="">
-              <div className="">
+            <div className="mb-[15px] clear-both w-full px-[15px] leading-[1.5rem] font-light text-[14px] text-black-lacquer
+            before:content-['.'] before:block before:overflow-hidden before:invisible before:text-[0px] before:leading-[0px] before:w-0 before:h-0 before:font-light before:text-black-lacquer
+            after:content-['.'] after:block after:overflow-hidden after:invisible after:text-[0px] after:leading-[0px] after:w-0 after:h-0 after:font-light after:text-black-lacquer
+            ">
+              <div className="leading-[1.5rem] font-light text-[14px] text-black-lacquer">
                 <input
                   id="cover_transaction_fee"
-                  className=""
+                  className="shadow-[none] hidden text-[17px] font-medium leading-[1em] px-[0.75em] py-0 m-0 border-0 w-full rounded-[2px]"
                   type="checkbox"
                   value="1"
                   name="cover_transaction_fee"
+                 
                 />
                 <label
                   for="cover_transaction_fee"
                   id="cover-transaction-fee-label"
-                  className=""
+                  className="text-[11px] leading-[1.25em] bg-[15px] pl-[22px] font-medium p-0 float-none my-[0.5em] m-x0 cursor-pointer relative w-auto text-left text-million-grey inline-block max-w-full bg-[url('/image/input-check-a159cd5e4b67c549bfce2d2a2506ca214fc5ad2123dad13e0a5ad47404fcaf16.png')] bg-contain bg-no-repeat
+                  before:h-[15px] before:w-[15px] before:m-left-[-22px] before:bg-[none] before:content[''] before:relative before:float-left before:mr-[7px] before:block before:border-[1px] before:border-solid before:border-cerebral-grey before:rounded-[3px] before:shadow-[inset_1px_1px_3px_rgba(0,0,0,0.1)] before:text-[11px] before:leading-[1.25em] before:font-medium before:cursor-pointer before:text-left before:text-million-grey
+
+
+                  "
                 >
-                  <span className="">cover processing fee</span>
+                  <span className="border-0 h-[1px] m-[-1px] overflow-hidden p-0 absolute w-[1px] text-[11px] leading-[1.25em] font-medium cursor-pointer text-left text-million-grey">cover processing fee</span>
                 </label>
-                <span for="cover_transaction_fee" id="pseudo-label"></span>
+                <span for="cover_transaction_fee" id="pseudo-label"
+                className="leading-[1.5em] font-light text-[14px] text-black-lacquer "></span>
                 <span
-                  className=""
+                  className="text-[11px] leading-[1.25em] inline-block align-top pt-[8px] font-medium text-black-lacquer"
                   data-currency-symbol="$"
                 >
                   I'll cover the{" "}
-                  <span className="">$1.04</span>
+                  <span className="text-[11px] leading-[1.25em] font-light text-black-lacquer">$1.04</span>
                   processing fee.
                 </span>
               </div>
@@ -328,47 +362,57 @@ export default function Home() {
                 type="hidden"
                 id="embed_percent_to_cover_transaction_fee"
                 value="2.9"
+                className="w-full text-[17px] font-medium leading-[1em] py-0 px-[0.75em] m-0 border-0 rounded-[2px]"
               />
 
-              <div className="">
-                <ul className="">
-                  <fieldset>
-                    <li className="">
+              <div className="mb-[15px] leading-[1.5em] font-light text-[14px] text-black-lacquer">
+                <ul className="ml-0 pl-0 mt-0 mb-[10px] ">
+                  <fieldset className="p-0 m-0 border-0 min-w-0 ">
+                    <li className="inline-block align-top w-[47.1%] m-[1%]">
                       <input
                         type="radio"
                         name="frequency"
                         id="frequency_One_Time_Donation"
                         value="One Time Donation"
                         checked="checked"
+                        className="opacity-0 w-0 h-0 hidden text-[17px] font-medium leading-[1em] px-[0.75em] py-0 m-0 border-0 rounded-[2px]"
                       />
-                      <label className="" for="frequency_One_Time_Donation">
-                        <div className="">One Time</div>
+                      <label className="text-[13px] leading-[20px] font-medium float-none my-[0.5em] mx-0 cursor-pointer w-auto border-[1px] border-solid border-baby-talk-grey bg-cerebral-grey py-[10px] px-0 block text-black-out text-center h-auto left-[0px] rounded-[3px] max-w-full" for="frequency_One_Time_Donation">
+                        <div className=" ">One Time</div>
                       </label>{" "}
                     </li>
-                    <li className="">
+                    <li className="inline-block align-top w-[47.1%] m-[1%]">
                       <input
                         type="radio"
                         name="frequency"
                         id="frequency_36"
                         value="36"
+                        className="opacity-0 w-0 h-0 hidden text-[17px] font-medium leading-[1em] px-[0.75em] py-0 m-0 border-0 rounded-[2px]"
                       />
-                      <label for="frequency_36">
+                      <label className="text-[13px] leading-[20px] font-medium float-none my-[0.5em] mx-0 cursor-pointer w-auto border-[1px] border-solid border-christmas-silver bg-super-silver py-[10px] px-0 block text-black-out text-center h-auto left-[0px] rounded-[3px] max-w-full" for="frequency_36">
                         <div className="">Monthly</div>
                       </label>{" "}
                     </li>
                   </fieldset>
                 </ul>
               </div>
-              <a className="">
-                Continue <i className="" aria-hidden="true"></i>
+              <a className="text-[inherit] bg-effervescent-blue active:bg-island-green cursor-pointer w-[99%] mx-auto my-0 font-bold h-auto text-white no-underline rounded-[4px] leading-[1em] block text-center py-[15px] px-0 normal-case text-[14px] tracking-[normal] border-solid border-[1px] border-[rgba(0,0,0,0.05)] shadow-[none] outline-0 mt-[30px]">
+                Continue <i className="text-[13px] ml-[5px] inline-block not-italic font-normal leading-[1] 
+                before:content-['>'] before:text-[13px] 
+                " aria-hidden="true"></i>
               </a>
-              <div id="powered-by">
-                <small>
-                  <i className=""></i>Securely processed by{" "}
-                  <a target="_blank" href="https://www.kindful.com/">
+              <div id="powered-by" className="text-center mt-[15px] ">
+                <small className="text-[.65em] font-[inherit] leading-[1.2em] flex mx-auto justify-center">
+                  <i className="mr-[2.5px] text-squant 
+                  before:content-['?']
+                  "></i>Securely processed by{" "}
+                  <a target="_blank" href="https://www.kindful.com/"
+                  className="no-underline	text-[#428bca] bg-[transparent] cursor-pointer"
+                  >
                     <img
+                    className="max-w-[65px] mt-[-2px] align-middle "
                       alt="Kindful"
-                      src="/assets/kindful-small-c874e16e72e31025afd05d99b17f5af248757eb3a76b612a74f6a15c2e11ba42.png"
+                      src="/image/kindful-small-c874e16e72e31025afd05d99b17f5af248757eb3a76b612a74f6a15c2e11ba42.png"
                     />
                   </a>
                 </small>
@@ -376,7 +420,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="" id="step2"
+          {/* <div className="" id="step2"
           //  style="display: none;"
            >
             <span className="" data-step="2">
@@ -401,9 +445,9 @@ export default function Home() {
                 </small>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="" id="step3" 
+          {/* <div className="" id="step3" 
           // style="display: none; opacity: 1;"
           >
             <div className="">
@@ -841,7 +885,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
